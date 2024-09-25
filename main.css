@@ -1,0 +1,35 @@
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 2px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); 
+}
+
+.btn:active {
+  transform: translateY(2px); 
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(0, 123, 255, 0.5); 
+}
+
+.btn-download {
+  background-color: #04aa6d;
+}
+
+.btn-copy {
+  background-color: #008cba;
+}
